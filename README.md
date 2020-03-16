@@ -1,6 +1,7 @@
 # Ionic Vue Slide
 
-App to display an image on a simple Ionic card, using the [Ionic 5 framework](https://ionicframework.com/docs) with [Vue](https://vuejs.org/). From tutorial: [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE)
+* App to display an image on a simple Ionic card, using [Vue](https://vuejs.org/) with Ionic from [Ionic/vue v0.0.4](https://www.npmjs.com/package/@ionic/vue) & [@ionic/core](https://www.npmjs.com/package/@ionic/core) npm modules
+* From tutorial: [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE)
 
 ## Table of contents
 
@@ -15,7 +16,8 @@ App to display an image on a simple Ionic card, using the [Ionic 5 framework](ht
 
 ## General info
 
-* solution to error message [`export ‘ICON_PATHS’ was not found in ionicons/icons`](https://es.stackoverflow.com/questions/277079/export-icon-paths-was-not-found-in-ionicons-icons) that prevented the app from running (in Spanish but easy to understand)
+* Solution to error message `export ‘ICON_PATHS’ was not found in ionicons/icons` is to edit the file `node_modules/@ionic/vue/dist/ionic-vue.esm.js` and search for `ICON_PATHS`. Comment out both lines - this solves the problem by making sure `ICON_PATHS` is not found
+* Vue app created using Vue CLI then ionic dependencies added
 
 ## Screenshots
 
@@ -24,12 +26,12 @@ App to display an image on a simple Ionic card, using the [Ionic 5 framework](ht
 ## Technologies
 
 * [Ionic/vue v0.0.4](https://www.npmjs.com/package/@ionic/vue)
-* [Ionic v5.0.5](https://ionicframework.com/)
+* [@ionic/core](https://www.npmjs.com/package/@ionic/core) npm ionic components module
 * [Vue v2.6.11](https://vuejs.org/)
 
 ## Setup
 
-* Load dependencies using `npm i`,
+* Load dependencies using `npm i`
 * To start the server on _http://localhost:8080/_ type: 'npm run serve'
 
 ## Code Examples
