@@ -1,56 +1,74 @@
-# Ionic Vue Slide
+# :zap: Ionic Vue Slide
 
-* App to display an image on a simple Ionic card, using [Vue](https://vuejs.org/) with Ionic from [Ionic/vue v0.0.4](https://www.npmjs.com/package/@ionic/vue) & [@ionic/core](https://www.npmjs.com/package/@ionic/core) npm modules
+* App to display an image on a simple Ionic card, using [Vue](https://vuejs.org/) with Ionic from [Ionic/vue](https://www.npmjs.com/package/@ionic/vue) & [@ionic/core](https://www.npmjs.com/package/@ionic/core) npm modules
 * From tutorial: [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE)
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic Vue Slide](#zap-ionic-vue-slide)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-* Solution to error message `export ‘ICON_PATHS’ was not found in ionicons/icons` is to edit the file `node_modules/@ionic/vue/dist/ionic-vue.esm.js` and search for `ICON_PATHS`. Comment out both lines - this solves the problem by making sure `ICON_PATHS` is not found
 * Vue app created using Vue CLI then ionic dependencies added
 
-## Screenshots
+## :camera: Screenshots
 
 ![screen print](./img/slide.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Ionic/vue v0.0.4](https://www.npmjs.com/package/@ionic/vue)
+* [Ionic/vue](https://www.npmjs.com/package/@ionic/vue)
 * [@ionic/core](https://www.npmjs.com/package/@ionic/core) npm ionic components module
-* [Vue v2.6.11](https://vuejs.org/)
+* [Vue v3](https://vuejs.org/)
 
-## Setup
+## :floppy_disk: Setup
 
 * Load dependencies using `npm i`
-* To start the server on _http://localhost:8080/_ type: 'npm run serve'
+* To start the server on <http://localhost:8080/> type: 'npm run serve'
 
-## Code Examples
+## :computer: Code Examples
+
+* Simple ion-card
+
+```html
+<ion-card>
+  <img
+    src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1113&q=80"
+    alt="view of mountain"
+  >
+  <ion-card-header>
+    <ion-card-title>Isn't it great?</ion-card-title>
+    <ion-card-subtitle>Look at this view!</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    Although it does look cold.
+  </ion-card-content>
+</ion-card>
+```
+
+## :cool: Features
 
 * N/A
 
-## Features
-
-* N/A
-
-## Status & To-do list
+## :clipboard: Status & To-do list
 
 * Status: working.
 * To-do: add functionality
 
-## Inspiration
+## :clap: Inspiration
 
 * [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE).
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) * you are welcome to [send me a message](https://andrewbateman.org/contact)
