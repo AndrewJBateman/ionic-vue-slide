@@ -2,6 +2,12 @@
 
 * App to display an image on a simple Ionic card, using [Vue](https://vuejs.org/) with Ionic from [Ionic/vue](https://www.npmjs.com/package/@ionic/vue) & [@ionic/core](https://www.npmjs.com/package/@ionic/core) npm modules
 * From tutorial: [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE)
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-vue-slide?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-vue-slide?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-vue-slide?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-vue-slide?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -15,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -62,13 +69,17 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: working.
+* Status: Working.
 * To-do: add functionality
 
 ## :clap: Inspiration
 
 * [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE).
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) * you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
